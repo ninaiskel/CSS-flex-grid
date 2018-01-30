@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Icon from './../icons'
 import './header.css';
 
 class Header extends Component {
@@ -8,9 +9,15 @@ class Header extends Component {
         <div className="logo">CSS-Léx</div>
         <div className="share-links">
           <p>Comparte:</p>
-          <a className="share-links-icon"href="#" >twitter</a>
-          <a className="share-links-icon"href="#">fb</a>
-          <a className="share-links-icon"href="#">github</a>
+          <a className="icon share-links-icon"href="#" >
+            <Icon name="icon-twitter" />
+          </a>
+          <a className="icon share-links-icon"href="#">
+            <Icon name="icon-facebook" />
+          </a>
+          <a className="icon share-links-icon"href="#">
+            <Icon name="icon-github" />
+          </a>
 
         </div>
       </section>

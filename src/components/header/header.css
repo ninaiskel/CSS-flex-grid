@@ -1,1 +1,26 @@
+.header {
+  background: var(--main-color);
+  color: var(--text-color-white);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 6px;
+}
 
+.logo {
+  align-items: center;
+  background: var(--second-color);
+  display: flex;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  padding: 20px;
+}
+
+.share-links {
+  display: flex;
+  align-items: center;
+}
+
+.share-links-icon {
+  margin-left: 10px;
+}

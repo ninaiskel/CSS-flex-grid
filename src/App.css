@@ -24,3 +24,13 @@ ul {
 p {
   margin: 0;
 }
+
+.App {
+  background: var(--background);
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "sidebar header header"
+                       "sidebar content content"
+                       "sidebar footer footer";
+}

@@ -5,6 +5,7 @@
   height: 80px;
   justify-content: space-between;
   padding: 6px;
+  grid-column: header;
 }
 
 .logo {
@@ -25,7 +26,7 @@
   margin-left: 10px;
 }
 
-.icon {
+.icon svg {
   width: 30px;
   height: 30px;
 }

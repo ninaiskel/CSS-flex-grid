@@ -1,6 +1,6 @@
 .sidebar {
   background: var(--main-color);
-  grid-column: sidebar;
+  grid-area: sidebar;
   grid-row: sidebar / footer;
-  color: var(--text-color-white);
+  color: var(--white);
 }

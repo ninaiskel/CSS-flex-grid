@@ -1,3 +1,4 @@
 .content {
-  grid-column: content; 
+  grid-area: content;
+  background: var(--white);
 }

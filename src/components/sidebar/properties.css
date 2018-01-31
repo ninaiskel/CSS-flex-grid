@@ -5,4 +5,5 @@
 .property-item {
   padding: 10px 0;
   color: var(--white);
+  padding-left: 20px;
 }

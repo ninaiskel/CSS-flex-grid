@@ -9,16 +9,15 @@ class Header extends Component {
         <div className="logo">CSS-Léx</div>
         <div className="share-links">
           <p>Comparte:</p>
-          <a className="icon share-links-icon"href="#" >
+          <button className="icon share-links-icon">
             <Icon name="icon-twitter" />
-          </a>
-          <a className="icon share-links-icon"href="#">
+          </button>
+          <button className="icon share-links-icon">
             <Icon name="icon-facebook" />
-          </a>
-          <a className="icon share-links-icon"href="#">
+          </button>
+          <button className="icon share-links-icon">
             <Icon name="icon-github" />
-          </a>
-
+          </button>
         </div>
       </section>
     );

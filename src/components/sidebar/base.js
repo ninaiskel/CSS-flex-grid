@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Searcher from './searcher.js';
+import Properties from './properties.js';
+
 import './sidebar.css';
 
-class Sidebar extends Component {
-  render() {
-    return (
-      <section className="sidebar">
-        i am a sidebar
-      </section>
-    );
-  }
-}
+const Sidebar = ({ properties }) => (
+  <section className="sidebar">
+    <Searcher />
+    <Properties properties={ properties }/>
+  </section>
+);
 
 export default Sidebar;

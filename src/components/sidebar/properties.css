@@ -1,0 +1,8 @@
+.properties-list {
+  padding: 20px;
+}
+
+.property-item {
+  padding: 10px 0;
+  color: var(--white);
+}

@@ -8,11 +8,20 @@ import './App.css';
 
 class App extends Component {
   constructor (props) {
-    super(props)
+    super(props);
+    this.updateSearch = this.updateSearch.bind(this)
     this.state = ({
       properties : {},
+      search : ''
     })
   }
+
+  updateSearch(event) {
+    console.log(event.target.value)
+    this.setState({ search: event.target.value })
+    event.preventDefault();
+  }
+
   componentWillMount () {
     this.setState({
       properties : [
@@ -49,11 +58,13 @@ class App extends Component {
   }
 
   render() {
-    const {  properties } = this.state
+    const {  properties, search } = this.state
 
     return (
       <div className="App container">
-        <Sidebar  properties={ properties }/>
+        <Sidebar  properties={ properties }
+                  search={ search }
+                  updateSearch={ this.updateSearch.bind(this) }/>
         <Header className="header" />
         <Content  />
         <Footer  />

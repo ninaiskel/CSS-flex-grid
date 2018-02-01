@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-// import './sidebar.css';
+import React from 'react';
+import './css/searcher.css';
 
-class Searcher extends Component {
-  render() {
-    return (
-      <div className="searcher">
-        
-      </div>
-    );
-  }
-}
+const Searcher = ({ search, updateSearch }) => (
+  <div className="searcher">
+    <input type="text"
+      className="searcher-input"
+      search={ search }
+      value={ search }
+      onChange= { updateSearch }
+      placeholder=" Buscar una propiedad"
+    />
+  </div>
+);
 
 export default Searcher;

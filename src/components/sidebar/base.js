@@ -2,12 +2,14 @@ import React from 'react';
 import Searcher from './searcher.js';
 import Properties from './properties.js';
 
-import './sidebar.css';
+import './css/sidebar.css';
 
-const Sidebar = ({ properties }) => (
+const Sidebar = ({ properties, search, updateSearch }) => (
   <section className="sidebar">
-    <Searcher />
-    <Properties properties={ properties }/>
+    <Searcher search={ search }
+              updateSearch={ updateSearch }/>
+    <Properties search={ search }
+                properties={ properties }/>
   </section>
 );
 

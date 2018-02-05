@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/searcher.css';
+import Icon from './../icons'
 
 const Searcher = ({ search, updateSearch }) => (
   <div className="searcher">
@@ -10,6 +11,9 @@ const Searcher = ({ search, updateSearch }) => (
       onChange= { updateSearch }
       placeholder=" Buscar una propiedad"
     />
+    <button className="icon icon-searcher">
+      <Icon name="icon-search" />
+    </button>
   </div>
 );
 

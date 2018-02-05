@@ -10,10 +10,10 @@ class Header extends Component {
         <div className="share-links">
           <p>Comparte:</p>
           <button className="icon share-links-icon">
-            <Icon name="icon-twitter" />
+            <Icon name="icon-twitter"/>
           </button>
           <button className="icon share-links-icon">
-            <Icon name="icon-facebook" />
+            <Icon name="icon-facebook"/>
           </button>
           <button className="icon share-links-icon">
             <Icon name="icon-github" />

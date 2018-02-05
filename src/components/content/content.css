@@ -1,4 +1,11 @@
 .content {
   grid-area: content;
   background: var(--white);
+  padding: 40px 60px;
+}
+
+.content-link {
+  background: var(--second-color);
+  color: white;
+  padding: 4px;
 }

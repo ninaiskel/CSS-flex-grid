@@ -44,6 +44,7 @@ p {
     "sidebar header header"
     "sidebar content content"
     "sidebar footer footer";
+  grid-template-rows: 90px auto 40px;
 }
 
 @media (max-width: 769px) {

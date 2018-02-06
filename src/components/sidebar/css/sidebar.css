@@ -2,5 +2,5 @@
   background: var(--main-color);
   grid-area: sidebar;
   color: var(--white);
-  height: calc(100vh - 20px);
+  height: 100%;
 }

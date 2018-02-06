@@ -1,5 +1,5 @@
 import React from 'react';
-import './content.css';
+import './css/property.css';
 
 const PropertyValues = () => (
   <div className="property-values">
@@ -22,7 +22,7 @@ const PropertyValues = () => (
         <span className="values-title">space-around:</span> Se distribuyen con espacios iguales entre ellas.
       </li>
       <li>
-        <span className="values-title">strech (default):</span> Se estiran para ocupar el espacio restante. 
+        <span className="values-title">strech (default):</span> Se estiran para ocupar el espacio restante.
       </li>
     </ul>
   </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './content.css';
+import './css/example-img.css';
 
 const ExampleImg = () => (
   <div className="example-img">

@@ -1,7 +1,5 @@
 import React from 'react';
 import Title from '.././title.js';
-import './content.css';
-
 
 const Property = () => (
   <div className="property">

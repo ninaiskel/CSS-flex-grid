@@ -1,0 +1,8 @@
+.property-values-list li {
+  margin-top: 20px;
+}
+
+.values-title {
+  background: var(--background);
+  padding: 6px;
+}

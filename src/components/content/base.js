@@ -5,6 +5,7 @@ import PropertyValues from './property-values.js';
 import ExampleImg from './example-img.js';
 import Demo from './demo.js';
 import BrowserSupport from './browser-support.js';
+import InterestsLinks from './interests-links.js';
 import './content.css';
 
 class Content extends Component {
@@ -17,6 +18,7 @@ class Content extends Component {
         <ExampleImg />
         <Demo />
         <BrowserSupport />
+        <InterestsLinks />
       </section>
     );
   }

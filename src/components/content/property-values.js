@@ -4,7 +4,7 @@ import './css/property.css';
 const PropertyValues = () => (
   <div className="property-values">
     <h2>Valores</h2>
-    <p>La propiedad align-content acepta 6 valores diferentes:</p>
+    <p>Esta propiedad acepta { } valores diferentes:</p>
     <ul className="property-values-list">
       <li>
         <span className="values-title">flex-start:</span> Se alinean al inicio del contenedor.

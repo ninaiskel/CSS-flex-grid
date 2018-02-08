@@ -4,12 +4,13 @@ import Properties from './properties.js';
 
 import './css/sidebar.css';
 
-const Sidebar = ({ properties, search, updateSearch }) => (
+const Sidebar = ({ properties, search, updateSearch, propertySelect }) => (
   <section className="sidebar">
     <Searcher search={ search }
               updateSearch={ updateSearch }/>
     <Properties search={ search }
-                properties={ properties }/>
+                properties={ properties }
+                propertySelect={ propertySelect }/>
   </section>
 );
 

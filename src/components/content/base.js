@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Property from './property.js';
 import Sintaxis from './sintaxis.js';
 import PropertyValues from './property-values.js';
@@ -8,20 +8,17 @@ import BrowserSupport from './browser-support.js';
 import InterestsLinks from './interests-links.js';
 import './content.css';
 
-class Content extends Component {
-  render() {
-    return (
-      <section className="content">
-        <Property />
-        <Sintaxis />
-        <PropertyValues />
-        <ExampleImg />
-        <Demo />
-        <BrowserSupport />
-        <InterestsLinks />
-      </section>
-    );
-  }
-}
+const Content = ({ property }) => (
+  <section className="content">
+    <Property  property= { property }/>
+    <Sintaxis />
+    <PropertyValues />
+    <ExampleImg />
+    <Demo />
+    <BrowserSupport />
+    <InterestsLinks />
+  </section>
+);
+
 
 export default Content;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import properties from './data/data.js';
 import Header from './components/header/base.js';
 import Sidebar from './components/sidebar/base.js';
 import Content from './components/content/base.js';
@@ -11,8 +12,9 @@ class App extends Component {
     super(props);
     this.updateSearch = this.updateSearch.bind(this)
     this.state = ({
-      properties : {},
-      search : ''
+      properties : properties,
+      search : '',
+      property: ''
     })
   }
 
@@ -22,51 +24,22 @@ class App extends Component {
     event.preventDefault();
   }
 
-  componentWillMount () {
-    this.setState({
-      properties : [
-        {
-          id: 1,
-          name: "align-content"
-        },
-        {
-          id: 2,
-          name: "align-items"
-        },
-        {
-          id: 3,
-          name: "align-self"
-        },
-        {
-          id: 4,
-          name: "animation"
-        },
-        {
-          id: 5,
-          name: "background"
-        },
-        {
-          id: 6,
-          name: "border"
-        },
-        {
-          id: 7,
-          name: "display"
-        }
-      ]
-    })
+  propertySelect(property) {
+    console.log(property)
+    this.setState({ property: property })
   }
 
   render() {
-    const {  properties, search } = this.state
-
+    const {  properties, search, property } = this.state
     return (
       <div className="App container">
         <Sidebar  properties={ properties }
                   search={ search }
-                  updateSearch={ this.updateSearch.bind(this) }/>
+                  updateSearch={ this.updateSearch.bind(this) }
+                  propertySelect={ this.propertySelect.bind(this) }/>
         <Header className="header" />
-        <Content  />
+        <Content  property= { property }
+                  propertySelect={ this.propertySelect.bind(this) }/>
         <Footer  />
       </div>
     );

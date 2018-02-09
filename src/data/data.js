@@ -2,9 +2,8 @@ const properties = [
   {
     id: 1,
     name: "align-content",
-    description: "align-content define como se alinea dentro de un contenedor flexible (Flexible Box Layout module), solo se aplica si flex-wrap: wrap está presente y si hay varias lineas de elemntos de flexbox.",
-    flexbox: true,
-    sintaxis: ["flex-start", "flex-end", "center", "space-between", "space-around", "stretch"],
+    description: "define como se alinea dentro de un contenedor flexible (Flexible Box Layout module), solo se aplica si flex-wrap: wrap está presente y si hay varias lineas de elemntos de flexbox.",
+    sintaxis:"flex-start | flex-end | center | space-between | space-around | stretch",
     valueAmount: 6,
     values: [
       {
@@ -42,8 +41,7 @@ const properties = [
     id: 2,
     name: "align-items",
     description: "Puedes pensarlo como la versión de justificación-contenido para el eje transversal",
-    flexbox: true,
-    sintaxis: ["flex-start", "flex-end", "center", "baseline", "stretch"],
+    sintaxis: "flex-start | flex-end | center | baseline | stretch",
     valueAmount: 5,
     values: [
       {

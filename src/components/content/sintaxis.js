@@ -1,10 +1,13 @@
 import React from 'react';
-import './content.css';
+import './css/sintaxis.css';
 
-const Sintaxis = () => (
+const Sintaxis = ({ property }) => (
   <div className="sintaxis">
     <h2>Sintaxis CSS</h2>
-    
+    <div className="sintaxis-wrap">
+      <p>{ property.name }</p>
+      <span>{ property.sintaxis }</span>
+    </div>
   </div>
 );
 

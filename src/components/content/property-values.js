@@ -1,10 +1,10 @@
 import React from 'react';
 import './css/property.css';
 
-const PropertyValues = () => (
+const PropertyValues = ({ property }) => (
   <div className="property-values">
     <h2>Valores</h2>
-    <p>Esta propiedad acepta { } valores diferentes:</p>
+    <p>Esta propiedad acepta { property.valueAmount } valores diferentes:</p>
     <ul className="property-values-list">
       <li>
         <span className="values-title">flex-start:</span> Se alinean al inicio del contenedor.

@@ -11,6 +11,7 @@ class App extends Component {
   constructor (props) {
     super(props);
     this.updateSearch = this.updateSearch.bind(this)
+    this.propertySelect = this.propertySelect.bind(this)
     this.state = ({
       properties : properties,
       search : '',
@@ -35,11 +36,11 @@ class App extends Component {
       <div className="App container">
         <Sidebar  properties={ properties }
                   search={ search }
-                  updateSearch={ this.updateSearch.bind(this) }
-                  propertySelect={ this.propertySelect.bind(this) }/>
+                  updateSearch={ this.updateSearch }
+                  propertySelect={ this.propertySelect }/>
         <Header className="header" />
         <Content  property= { property }
-                  propertySelect={ this.propertySelect.bind(this) }/>
+                  propertySelect={ this.propertySelect }/>
         <Footer  />
       </div>
     );

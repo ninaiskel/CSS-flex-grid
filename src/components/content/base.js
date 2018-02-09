@@ -11,8 +11,8 @@ import './content.css';
 const Content = ({ property }) => (
   <section className="content">
     <Property  property= { property }/>
-    <Sintaxis />
-    <PropertyValues />
+    <Sintaxis property= { property }/>
+    <PropertyValues property= { property } />
     <ExampleImg />
     <Demo />
     <BrowserSupport />

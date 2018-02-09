@@ -1,14 +1,18 @@
 import React from 'react';
+import './css/interest-links.css';
 
-const InterestsLinks = () => (
+const InterestsLinks = ({ property }) => (
   <div className="wrap-links">
-    <div>
-      <h2>Enlaces de ineteres</h2>
+    <div className="link-info">
+      <h2>Enlaces de interés</h2>
+      <ul>
+        { property.links && property.links.map((link, index) => {
+          return <li key={ index }>
+                  <a href={ link.link }>{ link.name }</a>
+                </li>
+        })}
+      </ul>
     </div>
-    <div>
-      <h2>Sugerencias</h2>
-    </div>
-
   </div>
 );
 

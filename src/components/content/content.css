@@ -9,3 +9,25 @@
   color: white;
   padding: 4px;
 }
+
+.wrap-title  {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.wrap-title span {
+  background: var(--third-color);
+  padding: 10px;
+}
+.browser-support {
+  padding: 40px 0;
+}
+
+.button {
+  background: var(--second-color);
+  padding: 20px;
+  color: var(--white);
+  text-decoration: none;
+}

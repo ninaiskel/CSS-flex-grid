@@ -3,7 +3,7 @@ import Title from '.././title.js';
 
 const Property = ({ property }) => (
   <div className="property">
-    <Title />
+    <Title property= { property }/>
     <p className="property-description">
       { property.name } { property.description }
     </p>

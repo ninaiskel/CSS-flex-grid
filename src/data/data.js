@@ -2,6 +2,7 @@ const properties = [
   {
     id: 1,
     name: "align-content",
+    tag: "flexbox",
     description: "define como se alinea dentro de un contenedor flexible (Flexible Box Layout module), solo se aplica si flex-wrap: wrap está presente y si hay varias lineas de elemntos de flexbox.",
     sintaxis:"flex-start | flex-end | center | space-between | space-around | stretch",
     valueAmount: 6,
@@ -31,15 +32,25 @@ const properties = [
         content: "Se estiran para ocupar el espacio restante.",
       }
     ],
-    example: "image",
+    example: "img/svg/align-content.svg",
+    exampleMobile: "img/svg/align-content-mobile.svg",
     demo: "demo",
-    BrowserSupport: "BrowserSupport",
-    links: "links",
-    suggestions: "sugerencias"
+    BrowserSupport: "https://caniuse.com/#search=align-content",
+    links: [
+      {
+        name: "CSS-tricks",
+        link: "Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      },
+      {
+        name: "Flexbox",
+        link: "https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox"
+      }
+    ],
   },
   {
     id: 2,
     name: "align-items",
+    tag: "flexbox",
     description: "Puedes pensarlo como la versión de justificación-contenido para el eje transversal",
     sintaxis: "flex-start | flex-end | center | baseline | stretch",
     valueAmount: 5,
@@ -69,11 +80,20 @@ const properties = [
         content: "Hereda el valor de align-items del padre (o si no lo tiene, stretch)",
       }
     ],
-    example: "image",
+    example: "img/svg/align-items.svg",
+    exampleMobile: "img/svg/align-items-mobile.svg",
     demo: "demo",
-    BrowserSupport: "BrowserSupport",
-    links: "links",
-    suggestions: "sugerencias"
+    BrowserSupport: "https://caniuse.com/#search=align-items",
+    links: [
+      {
+        name: "CSS-tricks",
+        link: "Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      },
+      {
+        name: "Flexbox",
+        link: "https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox"
+      }
+    ],
   },
   {
     id: 3,

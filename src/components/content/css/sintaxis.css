@@ -16,4 +16,5 @@
 
 .sintaxis-wrap span {
   background: var(--background);
+  margin-left: 6px;
 }

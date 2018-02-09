@@ -20,13 +20,11 @@ class App extends Component {
   }
 
   updateSearch(event) {
-    console.log(event.target.value)
     this.setState({ search: event.target.value })
     event.preventDefault();
   }
 
   propertySelect(property) {
-    console.log(property)
     this.setState({ property: property })
   }
 

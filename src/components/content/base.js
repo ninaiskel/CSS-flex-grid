@@ -13,10 +13,10 @@ const Content = ({ property }) => (
     <Property  property= { property }/>
     <Sintaxis property= { property }/>
     <PropertyValues property= { property } />
-    <ExampleImg />
-    <Demo />
-    <BrowserSupport />
-    <InterestsLinks />
+    <ExampleImg property= { property }/>
+    <Demo property= { property }/>
+    <BrowserSupport property= { property }/>
+    <InterestsLinks property= { property }/>
   </section>
 );
 

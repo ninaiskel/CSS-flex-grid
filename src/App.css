@@ -57,8 +57,10 @@ p {
       "header header header"
       "content content content"
       "footer footer footer";
+    grid-template-rows: auto;
   }
 }
+
 a {
   display: inline-block;
 }

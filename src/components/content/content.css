@@ -4,6 +4,11 @@
   padding: 40px 60px;
 }
 
+@media (max-width: 769px) {
+  .content {    
+    padding: 40px 20px;
+  }
+}
 .content-link {
   background: var(--second-color);
   color: white;

@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 769px) {
-  .content {    
+  .content {
     padding: 40px 20px;
   }
 }
@@ -26,6 +26,7 @@
   background: var(--third-color);
   padding: 10px;
 }
+
 .browser-support {
   padding: 40px 0;
 }

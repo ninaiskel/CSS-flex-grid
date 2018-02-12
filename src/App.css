@@ -50,16 +50,6 @@ p {
   grid-template-rows: 90px auto 40px;
 }
 
-@media (max-width: 769px) {
-  .container {
-    grid-template-areas:
-      "sidebar sidebar sidebar"
-      "header header header"
-      "content content content"
-      "footer footer footer";
-    grid-template-rows: auto;
-  }
-}
 
 a {
   display: inline-block;
@@ -76,4 +66,40 @@ button {
 .icon svg {
   width: 30px;
   height: 30px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    grid-template-columns: 225px 2fr 2fr;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "sidebar sidebar sidebar"
+    "header header header"
+    "content content content"
+    "footer footer footer";
+    grid-template-rows: auto;
+    grid-gap: 6px;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
 }

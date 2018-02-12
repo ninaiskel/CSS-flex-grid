@@ -4,3 +4,15 @@
   color: var(--white);
   height: 100%;
 }
+
+@media (max-width: 769px) {
+  .sidebar {
+    transform: translatex(-106%);
+    width: 100%;
+    position: fixed;
+  }
+  .sidebar-active .sidebar {
+    transform: translatex(0);
+    z-index: 999;
+  }
+}

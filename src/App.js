@@ -12,10 +12,12 @@ class App extends Component {
     super(props);
     this.updateSearch = this.updateSearch.bind(this)
     this.propertySelect = this.propertySelect.bind(this)
+    this.openSidebar = this.openSidebar.bind(this)
     this.state = ({
       properties : properties,
       search : '',
-      property: ''
+      property: '',
+      sidebar: false
     })
   }
 
@@ -25,18 +27,26 @@ class App extends Component {
   }
 
   propertySelect(property) {
-    this.setState({ property: property })
+    this.setState({
+      property: property,
+      sidebar: false
+    })
+  }
+
+  openSidebar(){
+    this.setState({ sidebar: true })
   }
 
   render() {
-    const {  properties, search, property } = this.state
+    const {  properties, search, property, sidebar } = this.state
+    const className = sidebar ? "App container sidebar-active" : "App container"
     return (
-      <div className="App container">
+      <div className={ className }>
         <Sidebar  properties={ properties }
                   search={ search }
                   updateSearch={ this.updateSearch }
                   propertySelect={ this.propertySelect }/>
-        <Header className="header" />
+        <Header className="header" openSidebar={ this.openSidebar }/>
         <Content  property= { property }
                   propertySelect={ this.propertySelect }/>
         <Footer  />

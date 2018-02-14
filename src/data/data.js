@@ -45,7 +45,7 @@ const properties = [
         name: "Flexbox",
         link: "https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox"
       }
-    ],
+    ]
   },
   {
     id: 2,
@@ -72,12 +72,8 @@ const properties = [
         content: "Se Alinea los ítems en el contenedor según la base de los ítems",
       },
       {
-        title: "space-around",
-        content: "Se distribuyen con espacios iguales entre ellas.",
-      },
-      {
         title: "stretch",
-        content: "Hereda el valor de align-items del padre (o si no lo tiene, stretch)",
+        content: "Hereda el valor de align-items del padre",
       }
     ],
     example: "img/svg/align-items.svg",
@@ -86,34 +82,62 @@ const properties = [
     BrowserSupport: "https://caniuse.com/#search=align-items",
     links: [
       {
-        name: "CSS-tricks",
-        link: "Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+        name: "CSS-tricks / align items",
+        link: "https://css-tricks.com/almanac/properties/a/align-items/"
       },
       {
-        name: "Flexbox",
-        link: "https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox"
+        name: "Mozilla",
+        link: "https://developer.mozilla.org/es/docs/Web/CSS/align-items"
       }
-    ],
+    ]
   },
   {
     id: 3,
-    name: "align-self"
-  },
-  {
-    id: 4,
-    name: "animation"
-  },
-  {
-    id: 5,
-    name: "background"
-  },
-  {
-    id: 6,
-    name: "border"
-  },
-  {
-    id: 7,
-    name: "display"
+    name: "align-self",
+    tag: "flexbox",
+    description: "Permite anular la alineación por defecto (o la especifica de align-items) y permite alinear elementos flex individuales. Toma los mismos valores que align items, pero para un solo elemento (hijo)",
+    sintaxis: "auto | flex-start | flex-end | center | baseline | stretch",
+    valueAmount: 6,
+    values: [
+      {
+        title: "auto",
+        content: "Se calcula acorde al valor de align-items del padre, o al de stretch si el elemento no tiene padre.",
+      },
+      {
+        title: "flex-start",
+        content: "El elemento hijo seleccionado se alinea al inicio del contenedor",
+      },
+      {
+        title: "flex-end",
+        content: "El elemento hijo se alinea al final del contenedor",
+      },
+      {
+        title: "center",
+        content: "El elemento hijo se alinea al centro del contenedor",
+      },
+      {
+        title: "baseline",
+        content: "Se Alinea los ítems en el contenedor según la base de los ítems",
+      },
+      {
+        title: "stretch",
+        content: "Hereda el valor de align-items del padre",
+      }
+    ],
+    example: "img/svg/align-self.svg",
+    exampleMobile: "img/svg/align-self-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=align-self",
+    links: [
+      {
+        name: "CSS-tricks / align items",
+        link: "https://css-tricks.com/almanac/properties/a/align-self/"
+      },
+      {
+        name: "Mozilla",
+        link: "https://developer.mozilla.org/es/docs/Web/CSS/align-self"
+      }
+    ]
   }
 ]
 

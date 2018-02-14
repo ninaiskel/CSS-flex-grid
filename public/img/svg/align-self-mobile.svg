@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="506px" height="118px" viewBox="0 0 506 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <polygon id="Shape" fill="#E0E7EE" fill-rule="nonzero" points="0 27 504 27 504 107 0 107"></polygon>
+            <polygon id="Shape" fill="#AFB8C1" fill-rule="nonzero" points="1.11022302e-15 27 126 27 126 83 0 83"></polygon>
+            <polygon id="Shape" fill="#919BA5" fill-rule="nonzero" points="126 27 252 27 252 66 126 66"></polygon>
+            <polygon id="Shape" fill="#AFB8C1" fill-rule="nonzero" points="378 29 504 29 504 85 378 85"></polygon>
+            <polygon id="Shape" fill="#7D8793" fill-rule="nonzero" points="252 46 378 46 378 108 252 108"></polygon>
+            <text id="Flex-container-align" font-family="PTSans-Bold, PT Sans" font-size="20" font-weight="bold" letter-spacing="0.444444478" fill="#555555">
+                <tspan x="0" y="18">Flex-container  align-items: flex-start</tspan>
+            </text>
+            <text id="align-self:-flex-end" font-family="PTSans-Bold, PT Sans" font-size="14" font-weight="bold" letter-spacing="0.311111152" fill="#FFFFFF">
+                <tspan x="256" y="89">align-self: flex-end</tspan>
+            </text>
+            <text id="item" font-family="PTSans-Bold, PT Sans" font-size="14" font-weight="bold" letter-spacing="0.311111152" fill="#FFFFFF">
+                <tspan x="259" y="67">item</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

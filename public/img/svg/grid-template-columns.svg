@@ -1,0 +1,36 @@
+<svg width="790" height="625" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M169 38h450v254H169z"/>
+    <path id="b" d="M107 340h87v272h-87z"/>
+    <path id="c" d="M107 340h87v272h-87z"/>
+    <path id="d" d="M399 340h87v272h-87z"/>
+    <path id="e" d="M692 340h87v272h-87z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#AFB8C1" d="M9 38h160v254H9z"/>
+    <use fill="#919BA5" xlink:href="#a"/>
+    <path stroke="#979797" d="M169.5 38.5h449v253h-449z"/>
+    <path fill="#AFB8C1" d="M618 38h160v254H618zM9 340h87v272H9z"/>
+    <use fill="#919BA5" xlink:href="#b"/>
+    <path stroke="#979797" d="M107.5 340.5h86v271h-86z"/>
+    <use fill="#919BA5" xlink:href="#c"/>
+    <path stroke="#979797" d="M107.5 340.5h86v271h-86z"/>
+    <path fill="#AFB8C1" d="M204 340h87v272h-87z"/>
+    <path fill="#D0DAE4" d="M302 340h87v272h-87z"/>
+    <use fill="#919BA5" xlink:href="#d"/>
+    <path stroke="#979797" d="M399.5 340.5h86v271h-86z"/>
+    <path fill="#D0DAE4" d="M594 340h87v272h-87z"/>
+    <use fill="#919BA5" xlink:href="#e"/>
+    <path stroke="#979797" d="M692.5 340.5h86v271h-86z"/>
+    <path fill="#AFB8C1" d="M497 340h87v272h-87z"/>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
+      <tspan x="9" y="17">grid-templete-columns: 200px 1fr 200px;</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
+      <tspan x="320" y="17">grid-templete-columns: 1fr 2fr 1fr;</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
+      <tspan x="9" y="323">grid-templete-columns: repeat(8, 1fr)</tspan>
+    </text>
+  </g>
+</svg>

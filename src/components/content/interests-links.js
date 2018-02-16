@@ -8,7 +8,7 @@ const InterestsLinks = ({ property }) => (
       <ul>
         { property.links && property.links.map((link, index) => {
           return <li key={ index }>
-                  <a href={ link.link }>{ link.name }</a>
+                  <a target="_blank" href={ link.link }>{ link.name }</a>
                 </li>
         })}
       </ul>

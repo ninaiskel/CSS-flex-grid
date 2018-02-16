@@ -1,0 +1,32 @@
+<svg width="420" height="459" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M136 195h280v244H136z"/>
+    <path id="b" d="M135 88h280v100H135z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#AFB8C1" d="M36 195h100v244H36z"/>
+    <use fill="#919BA5" xlink:href="#a"/>
+    <path stroke="#979797" d="M136.5 195.5h279v243h-279z"/>
+    <use fill="#919BA5" xlink:href="#b"/>
+    <path stroke="#979797" d="M135.5 88.5h279v99h-279z"/>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#1B1B1D">
+      <tspan x="71" y="82">column</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#1B1B1D">
+      <tspan x="301" y="80">column</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#1B1B1D">
+      <tspan x="5" y="142">row</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#1B1B1D">
+      <tspan x="5" y="303">row</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="18" fill="#1B1B1D">
+      <tspan x="8" y="49">grid-templete-columns: 1fr 2fr;</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="18" font-weight="bold" fill="#1B1B1D">
+      <tspan x="9" y="26">grid-templete-row: 100px auto;</tspan>
+    </text>
+    <path fill="#AFB8C1" d="M36 88h100v100H36z"/>
+  </g>
+</svg>

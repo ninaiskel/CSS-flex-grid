@@ -1,0 +1,92 @@
+<svg width="804" height="575" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M360 175h271v244H360z"/>
+    <path id="b" d="M360 68h271v100H360z"/>
+    <path id="c" d="M203 175h149v244H203z"/>
+    <path id="d" d="M203 68h149v100H203z"/>
+    <path id="e" d="M360 429h271v100H360z"/>
+    <path id="f" d="M203 429h149v100H203z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#979797" stroke-width="2" d="M47 176h147v242H47zm593 0h147v242H640zM47 69h147v98H47zm593 0h147v98H640z"/>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="12" y="122">25%</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="12" y="483">25%</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="12" y="283">auto</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
+      <tspan x="13" y="24">grid-column-start: 2 </tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
+      <tspan x="173" y="23">grid-column-end: 4 </tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="370" y="23">(shorthand)</tspan> <tspan x="438.614" y="23" font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold"> grid-column: 2 / 4</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#498CF3">
+      <tspan x="42" y="55">1</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#498CF3">
+      <tspan x="25" y="72">1</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#498CF3">
+      <tspan x="25" y="175">2</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#498CF3">
+      <tspan x="23" y="530">4</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#498CF3">
+      <tspan x="351" y="55">3</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#498CF3">
+      <tspan x="753" y="55">5</tspan>
+    </text>
+    <use fill="#919BA5" xlink:href="#a"/>
+    <path stroke="#5D5A5A" stroke-width="2" d="M361 176h269v242H361z"/>
+    <use fill="#919BA5" xlink:href="#b"/>
+    <path stroke="#5D5A5A" stroke-width="2" d="M361 69h269v98H361z"/>
+    <use fill="#919BA5" xlink:href="#c"/>
+    <path stroke="#5D5A5A" stroke-width="2" d="M204 176h147v242H204z"/>
+    <use fill="#919BA5" xlink:href="#d"/>
+    <path stroke="#5D5A5A" stroke-width="2" d="M204 69h147v98H204z"/>
+    <text font-family="PTSans-Bold, PT Sans" font-size="18" font-weight="bold" fill="#498CF3">
+      <tspan x="192" y="55">2</tspan>
+    </text>
+    <text font-family="PTSans-Bold, PT Sans" font-size="18" font-weight="bold" fill="#498CF3">
+      <tspan x="632" y="55">4</tspan>
+    </text>
+    <path stroke="#979797" stroke-width="2" d="M47 430h147v98H47zm593 0h147v98H640z"/>
+    <use fill="#919BA5" xlink:href="#e"/>
+    <path stroke="#5D5A5A" stroke-width="2" d="M361 430h269v98H361z"/>
+    <use fill="#919BA5" xlink:href="#f"/>
+    <path stroke="#5D5A5A" stroke-width="2" d="M204 430h147v98H204z"/>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="340" y="553">10px</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="149" y="551">grid-gap: 10px</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="622" y="551">10px</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="14" fill="#1B1B1D">
+      <tspan x="16" y="428">10px</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#FFF">
+      <tspan x="265" y="125">1fr</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#1B1B1D">
+      <tspan x="103" y="123">1fr</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#FFF">
+      <tspan x="477" y="125">2fr</tspan>
+    </text>
+    <text font-family="PTSans-Regular, PT Sans" font-size="16" fill="#1B1B1D">
+      <tspan x="699" y="125">1fr</tspan>
+    </text>
+  </g>
+</svg>

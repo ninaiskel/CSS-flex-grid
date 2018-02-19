@@ -1,31 +1,25 @@
-<svg width="420" height="625" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <path id="a" d="M107 51h300v254H107z"/>
-    <path id="b" d="M284 340h61v272h-61z"/>
-    <path id="c" d="M107 340h87v272h-87z"/>
-    <path id="d" d="M78 340h61v272H78z"/>
-  </defs>
+<svg width="419" height="614" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" fill-rule="evenodd">
-    <use fill="#919BA5" xlink:href="#a"/>
-    <path stroke="#979797" d="M107.5 51.5h299v253h-299z"/>
-    <path fill="#D0DAE4" d="M216 340h61v272h-61z"/>
-    <use fill="#919BA5" xlink:href="#b"/>
-    <path stroke="#979797" d="M284.5 340.5h60v271h-60z"/>
-    <path fill="#AFB8C1" d="M9 51h100v254H9zm0 289h61v272H9z"/>
-    <use fill="#919BA5" xlink:href="#c"/>
-    <path stroke="#979797" d="M107.5 340.5h86v271h-86z"/>
-    <use fill="#919BA5" xlink:href="#d"/>
-    <path stroke="#979797" d="M78.5 340.5h60v271h-60z"/>
-    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
-      <tspan x="9" y="18">grid-templete-columns: 200px 1fr;</tspan>
+    <path d="M108 51h300v254H108z" fill-rule="nonzero" fill="#919BA5"/>
+    <path stroke="#979797" d="M108.5 51.5h299v253h-299z"/>
+    <path fill="#D0DAE4" fill-rule="nonzero" d="M217 340h61v272h-61z"/>
+    <path d="M285 340h61v272h-61z" fill-rule="nonzero" fill="#919BA5"/>
+    <path stroke="#979797" d="M285.5 340.5h60v271h-60z"/>
+    <path d="M10 51h100v254H10V51zm0 289h61v272H10V340z" fill="#AFB8C1" fill-rule="nonzero"/>
+    <path d="M108 340h87v272h-87z" fill-rule="nonzero" fill="#919BA5"/>
+    <path stroke="#979797" d="M108.5 340.5h86v271h-86z"/>
+    <path d="M79 340h61v272H79z" fill-rule="nonzero" fill="#919BA5"/>
+    <path stroke="#979797" d="M79.5 340.5h60v271h-60z"/>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#4C4C4C" transform="translate(10 4)">
+      <tspan x="0" y="14">grid-template-columns: 200px 1fr;</tspan>
     </text>
-    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
-      <tspan x="9" y="327">grid-templete-columns: repeat(6, 1fr)</tspan>
+    <text fill="#1B1B1D" font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" transform="translate(10 4)">
+      <tspan x="0" y="323">grid-template-columns: repeat(6, 1fr)</tspan>
     </text>
-    <path fill="#AFB8C1" d="M147 340h61v272h-61z"/>
-    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#1B1B1D">
-      <tspan x="9" y="40">grid-templete-columns: 1fr 2fr;</tspan>
+    <path fill="#AFB8C1" fill-rule="nonzero" d="M148 340h61v272h-61z"/>
+    <text font-family="PTSans-Bold, PT Sans" font-size="16" font-weight="bold" fill="#4C4C4C" transform="translate(10 4)">
+      <tspan x="0" y="36">grid-template-columns: 1fr 2fr;</tspan>
     </text>
-    <path fill="#AFB8C1" d="M354 340h61v272h-61z"/>
+    <path fill="#AFB8C1" fill-rule="nonzero" d="M355 340h61v272h-61z"/>
   </g>
 </svg>

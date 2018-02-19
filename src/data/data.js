@@ -341,9 +341,9 @@ const properties = [
   },
   {
     id: 10,
-    name: "justify-content",
+    name: "justify-content (flexbox)",
     tag: "flexbox",
-    description: " Alinea los elementos flexibles en el eje principal (por defecto, el horizontal) de su contenedor.",
+    description: "Alinea los elementos flexibles en el eje principal (por defecto, el horizontal) de su contenedor.",
     sintaxis: "flex-start | flex-end | center | space-between | space-around",
     valueAmount: 5,
     values: [
@@ -436,6 +436,10 @@ const properties = [
       {
         name: "Mozilla / grid-template-columns",
         link: "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns"
+      },
+      {
+        name: "Ejemplo usando repeat(), Rachel Andrew",
+        link: "https://gridbyexample.com/examples/example9/"
       }
     ]
   },
@@ -538,12 +542,196 @@ const properties = [
         link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
       },
       {
-        name: "CSS-tricks / Introducción a la unidad CSS 'fr'",
-        link: "https://css-tricks.com/introduction-fr-css-unit/"
+        name: "Mozilla / grid-column-start",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start"
+      },
+      {
+        name: "Ejemplo por Rachel Andrew",
+        link: "https://gridbyexample.com/examples/example7/"
+      }
+    ]
+  },
+  {
+    id: 14,
+    name: "grid-row-start | end",
+    tag: "CSS Grid",
+    description: "Determina la ubicación de un elemento de cuadrícula dentro de la cuadrícula al referirse a líneas de cuadrícula específicas. grid-row-start / grid-column-start es la línea donde comienza el elemento, y grid-row-end / grid-column-end la linea donde termina.",
+    sintaxis: "número o nombre | span<número> | span<nombre> | auto",
+    valueAmount: 4,
+    values: [
+      {
+        title: "número o nombre",
+        content: "Puede ser un número para referirse a una línea de cuadrícula numerada, o un nombre para referirse a una línea de cuadrícula con nombre",
+      },
+      {
+        title: "span<número>",
+        content: "Se extenderá hasta que llegue a la siguiente línea con el número provisto.",
+      },
+      {
+        title: "span<nombre>",
+        content: "Se extenderá hasta que llegue a la siguiente línea con el nombre provisto",
+      },
+      {
+        title: "auto",
+        content: "Ubicación automática",
+      }
+    ],
+    example: "img/svg/grid-row-s-e.svg",
+    exampleMobile: "img/svg/grid-row-s-e-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=grid-row",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
       },
       {
         name: "Mozilla / grid-column-start",
         link: "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start"
+      },
+      {
+        name: "Ejemplo por Rachel Andrew",
+        link: "https://gridbyexample.com/examples/example7/"
+      }
+    ]
+  },
+  {
+    id: 14,
+    name: "grid-gap",
+    tag: "CSS Grid",
+    description: "Es una propiedad  abreviada shorthand para grid-row-gap y grid-column-gap que define los canales entre las filas y las columnas de la cuadrícula. Al proporcionar un valor se establece el margen tanto para las filas como para las columnas",
+    sintaxis: "<grid-row-gap> <grid-column-gap>",
+    valueAmount: 1,
+    values: [
+      {
+        title: "<longitud> o <porcentaje>",
+        content: "Proporcionar solo un valor (grid-gap) aplica el mismo canal a la fila y a la columna. Los valores negativos no son válidos.",
+      },
+    ],
+    example: "img/svg/grid-gap.svg",
+    exampleMobile: "img/svg/grid-gap-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Mozilla / grid-gap",
+        link: "https://developer.mozilla.org/es/docs/Web/CSS/grid-gap"
+      },
+    ]
+  },
+  {
+    id: 15,
+    name: "grid-template-area",
+    tag: "CSS Grid",
+    description: "Especifica nombres para cada una de las grid areas, y las usamos para posicionar nuestros elementos, en lugar de números de línea. Repetir el nombre de un grid-area hace que el contenido abarque esas celdas.",
+    sintaxis: "none, <string>",
+    valueAmount: 1,
+    values: [
+      {
+        title: "none",
+        content: "No se definen áreas de cuadrícula",
+      },
+      {
+        title: "<grid-area-name>",
+        content: "Especifica las áreas de cuadrícula nombradas como una serie de valores de cadena, las filas se crean listando líneas de cadenas separadas, mientras que las columnas se reflejan en cada una de las celdas que aparecen en la cadena",
+      },
+    ],
+    example: "img/svg/grid-template-areas.svg",
+    exampleMobile: "img/svg/grid-template-areas-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Mozilla / grid-template-area",
+        link: "https://developer.mozilla.org/es/docs/Web/CSS/grid-template-areas"
+      },
+    ]
+  },
+  {
+    id: 16,
+    name: "grid-area",
+    tag: "CSS Grid",
+    description: "Da un nombre a un elemento para que pueda ser referenciado por una plantilla creada con la propiedad grid-template-areas.",
+    sintaxis: "<string>",
+    valueAmount: 1,
+    values: [
+      {
+        title: "name",
+        content: "El nombre que elegiste en grid-template-areas",
+      }
+    ],
+    example: "img/svg/grid-area.svg",
+    exampleMobile: "img/svg/grid-area-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Mozilla / grid-area",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area"
+      },
+      {
+        name: "Definiendo las areas",
+        link: "https://gridbyexample.com/examples/example11/"
+      }
+    ]
+  },
+  {
+    id: 17,
+    name: "justify-content (CSS-grid)",
+    tag: "CSS Grid",
+    description: "Guarda el mismo principio que para flexbox. Alinea los elementos en el eje principal (el horizontal) de su contenedor.",
+    sintaxis: "start | end | center | stretch | space-between | space-around | space-evenly",
+    valueAmount: 7,
+    values: [
+      {
+        title: "start",
+        content: "Se alinean al inicio del contenedor",
+      },
+      {
+        title: "end",
+        content: "Se alinean al final del contenedor",
+      },
+      {
+        title: "center",
+        content: "Se alinean al centro del contenedor",
+      },
+      {
+        title: "stretch",
+        content: "Cambia el tamaño de los elementos de grid para permitir que ocupe todo el ancho del contenedor del grid",
+      },
+      {
+        title: "space-between",
+        content: "Se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
+      },
+      {
+        title: "space-around",
+        content: "Se distribuyen con espacios iguales entre ellas, con espacios de la mitad del tamaño en los extremos",
+      },
+      {
+        title: "space-evenly",
+        content: "Se distribuyen con espacios iguales entre ellas, incluidos los extremos",
+      }
+    ],
+    example: "img/svg/justify-content-grid.svg",
+    exampleMobile: "img/svg/justify-content-grid-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
       }
     ]
   }

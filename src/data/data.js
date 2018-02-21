@@ -734,6 +734,218 @@ const properties = [
         link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
       }
     ]
+  },
+  {
+    id: 18,
+    name: "justify-items",
+    tag: "CSS Grid",
+    description: "Alinea el contenido dentro de un elemento de la cuadrícula a lo largo del eje de la fila.",
+    sintaxis: "start | end | center | stretch",
+    valueAmount: 4,
+    values: [
+      {
+        title: "start",
+        content: "Se alinean al inicio del grid-area",
+      },
+      {
+        title: "end",
+        content: "Se alinean al final del grid-area",
+      },
+      {
+        title: "center",
+        content: "Se alinean al centro del grid-area",
+      },
+      {
+        title: "stretch",
+        content: "Llena todo el ancho del grid-area",
+      }
+    ],
+    example: "img/svg/justify-items.svg",
+    exampleMobile: "img/svg/justify-items-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Ejemplos de justify-items por Rachel Andrew ",
+        link: "https://gridbyexample.com/examples/example25/"
+      },
+      {
+        name: "Mozilla ",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items"
+      }
+    ]
+  },
+  {
+    id: 19,
+    name: "align-items",
+    tag: "CSS Grid",
+    description: "Alinea el contenido dentro de un elemento de la cuadrícula a lo largo del eje de la columna. (A diferencia de justify-items)",
+    sintaxis: "start | end | center | stretch",
+    valueAmount: 4,
+    values: [
+      {
+        title: "start",
+        content: "Se alinean al inicio del grid-area",
+      },
+      {
+        title: "end",
+        content: "Se alinean al final del grid-area",
+      },
+      {
+        title: "center",
+        content: "Se alinean al centro del grid-area",
+      },
+      {
+        title: "stretch",
+        content: "Llena todo el ancho del grid-area",
+      }
+    ],
+    example: "img/svg/align-items-grid.svg",
+    exampleMobile: "img/svg/align-items-grid-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Ejemplos de align-items por Rachel Andrew ",
+        link: "https://gridbyexample.com/examples/example24/"
+      }
+    ]
+  },
+  {
+    id: 20,
+    name: "align-content",
+    tag: "CSS Grid",
+    description: "Similar a justify-content, pero align-content alinea la grilla a lo largo del eje de la columna",
+    sintaxis: "start | end | center | stretch | space-between | space-around | space-evenly",
+    valueAmount: 7,
+    values: [
+      {
+        title: "start",
+        content: "Se alinean al inicio del contenedor",
+      },
+      {
+        title: "end",
+        content: "Se alinean al final del contenedor",
+      },
+      {
+        title: "center",
+        content: "Se alinean al centro del contenedor",
+      },
+      {
+        title: "stretch",
+        content: "Cambia el tamaño de los elementos de grid para permitir que ocupe todo el ancho del contenedor del grid",
+      },
+      {
+        title: "space-between",
+        content: "Se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
+      },
+      {
+        title: "space-around",
+        content: "Se distribuyen con espacios iguales entre ellas, con espacios de la mitad del tamaño en los extremos",
+      },
+      {
+        title: "space-evenly",
+        content: "Se distribuyen con espacios iguales entre ellas, incluidos los extremos",
+      }
+    ],
+    example: "img/svg/justify-items.svg",
+    exampleMobile: "img/svg/justify-items-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Mozilla",
+        link: "https://developer.mozilla.org/es/docs/Web/CSS/align-content"
+      }
+    ]
+  },
+  {
+    id: 21,
+    name: "grid-auto",
+    tag: "CSS Grid",
+    description: "grid-auto-column / grid-auto-rows, Define si un elemento de la cuadrícula se coloca en una columna que no está dimensionada explícitamente por grid-template-column o grid-template-row, se crean grid-tracks implícitas para contenerla.",
+    sintaxis: "<track-size>",
+    valueAmount: 1,
+    values: [
+      {
+        title: "<track-size>",
+        content: "Puede ser una longitud(px), un porcentaje(%) o una fracción (fr)",
+      }
+    ],
+    example: "img/svg/grid-auto.svg",
+    exampleMobile: "img/svg/grid-auto-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Mozilla",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns"
+      },
+      {
+        name: "La diferencia entre grillas explícitas e implícitas",
+        link: "https://css-tricks.com/difference-explicit-implicit-grids/"
+      },
+      {
+        name: "Ejemplo por Rachel Andrew",
+        link: "https://gridbyexample.com/examples/example17/"
+      }
+    ]
+  },
+  {
+    id: 22,
+    name: "grid-auto-flow",
+    tag: "CSS Grid",
+    description: "Controla cómo funciona el algoritmo de auto colocación. Si tiene elementos de grid que no se colocan explícitamente en el grid, el algoritmo de colocación automática se activa para colocar automáticamente los elementos.",
+    sintaxis: "row | column | row dense | column dense",
+    valueAmount: 1,
+    values: [
+      {
+        title: "row",
+        content: "Le dice al algoritmo de colocación automática que complete cada fila (row), agregando nuevas filas según sea necesario",
+      },
+      {
+        title: "column",
+        content: "Le dice al algoritmo de colocación automática que complete cada columna, agregando nuevas columnas según sea necesario",
+      },
+      {
+        title: "dense",
+        content: "Le dice al algoritmo de colocación automática que intente rellenar los huecos antes en el grid, si aparecen elementos más pequeños más tarde",
+      }
+    ],
+    example: "img/svg/grid-auto-flow.svg",
+    exampleMobile: "img/svg/grid-auto-flow-mobile.svg",
+    demo: "demo",
+    BrowserSupport: "https://caniuse.com/#search=css%20grid",
+    links: [
+      {
+        name: "CSS-tricks / CSS grid ",
+        link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        name: "Mozilla",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow"
+      },
+      {
+        name: "Ejemplo por Rachel Andrew",
+        link: "https://gridbyexample.com/examples/example18/"
+      }
+    ]
   }
 ]
 

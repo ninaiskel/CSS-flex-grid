@@ -23,6 +23,11 @@
 .header p {
   margin: 0;
 }
+
+.button-searcher {
+  display: none;
+}
+/* social icons */
 .share-links {
   display: flex;
   align-items: center;
@@ -32,10 +37,14 @@
   margin-left: 10px;
 }
 
-.button-searcher {
-  display: none;
+.share-links-icon svg {
+  transition: all 1s ease;
 }
-
+.share-links-icon:hover svg {
+  transform: rotate(90deg);
+ 
+}
+/* breakpoints */
 @media (max-width: 769px) {
   .header {
     height: 50px;

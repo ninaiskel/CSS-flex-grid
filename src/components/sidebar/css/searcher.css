@@ -30,3 +30,9 @@ input {
   right: 10px;
   z-index: 2;
 }
+
+@media (max-width: 769px) {
+  .searcher-input {
+    height: 50px;
+  }
+}

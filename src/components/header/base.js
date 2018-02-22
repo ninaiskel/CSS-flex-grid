@@ -6,7 +6,7 @@ const Header = ({ openSidebar }) => (
   <section className="header">
     <div className="logo">
       <button onClick={ openSidebar } className="icon button-searcher">
-      <Icon name="icon-search" />
+        <Icon name="icon-search" />
       </button>
       <h1>CSS-Léx</h1>
     </div>

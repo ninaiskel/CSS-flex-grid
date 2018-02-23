@@ -1,5 +1,6 @@
 :root {
   --main-color: #232333;
+  --main-color-dark: #15151e;
   --second-color: #498CF3;
   --background: #E9F0F7;
   --third-color: #F4CC63;
@@ -29,6 +30,7 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -52,7 +54,7 @@ p {
     "sidebar header header"
     "sidebar content content"
     "sidebar footer footer";
-  grid-template-rows: 90px auto 40px;
+  grid-template-rows: 90px auto 50px;
 }
 
 a {

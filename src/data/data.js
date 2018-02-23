@@ -342,7 +342,7 @@ const properties = {
       },
       {
         id: 10,
-        name: "justify-content (flexbox)",
+        name: "justify-content",
         tag: "flexbox",
         description: "Alinea los elementos flexibles en el eje principal (por defecto, el horizontal) de su contenedor.",
         sintaxis: "flex-start | flex-end | center | space-between | space-around",
@@ -386,8 +386,100 @@ const properties = {
       }
     ],
     cssGrid: [
+      {
+        id: 11,
+        name: "align-items",
+        tag: "CSS Grid",
+        description: "Alinea el contenido dentro de un elemento de la cuadrícula a lo largo del eje de la columna. (A diferencia de justify-items)",
+        sintaxis: "start | end | center | stretch",
+        valueAmount: 4,
+        values: [
+          {
+            title: "start",
+            content: "Se alinean al inicio del grid-area",
+          },
+          {
+            title: "end",
+            content: "Se alinean al final del grid-area",
+          },
+          {
+            title: "center",
+            content: "Se alinean al centro del grid-area",
+          },
+          {
+            title: "stretch",
+            content: "Llena todo el ancho del grid-area",
+          }
+        ],
+        example: "img/svg/align-items-grid.svg",
+        exampleMobile: "img/svg/align-items-grid-mobile.svg",
+        demo: "demo",
+        BrowserSupport: "https://caniuse.com/#search=css%20grid",
+        links: [
+          {
+            name: "CSS-tricks / CSS grid ",
+            link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+          },
+          {
+            name: "Ejemplos de align-items por Rachel Andrew ",
+            link: "https://gridbyexample.com/examples/example24/"
+          }
+        ]
+      },
+      {
+        id: 12,
+        name: "align-content",
+        tag: "CSS Grid",
+        description: "Similar a justify-content, pero align-content alinea la grilla a lo largo del eje de la columna",
+        sintaxis: "start | end | center | stretch | space-between | space-around | space-evenly",
+        valueAmount: 7,
+        values: [
+          {
+            title: "start",
+            content: "Se alinean al inicio del contenedor",
+          },
+          {
+            title: "end",
+            content: "Se alinean al final del contenedor",
+          },
+          {
+            title: "center",
+            content: "Se alinean al centro del contenedor",
+          },
+          {
+            title: "stretch",
+            content: "Cambia el tamaño de los elementos de grid para permitir que ocupe todo el ancho del contenedor del grid",
+          },
+          {
+            title: "space-between",
+            content: "Se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
+          },
+          {
+            title: "space-around",
+            content: "Se distribuyen con espacios iguales entre ellas, con espacios de la mitad del tamaño en los extremos",
+          },
+          {
+            title: "space-evenly",
+            content: "Se distribuyen con espacios iguales entre ellas, incluidos los extremos",
+          }
+        ],
+        example: "img/svg/justify-items.svg",
+        exampleMobile: "img/svg/justify-items-mobile.svg",
+        demo: "demo",
+        BrowserSupport: "https://caniuse.com/#search=css%20grid",
+        links: [
+          {
+            name: "CSS-tricks / CSS grid ",
+            link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
+          },
+          {
+            name: "Mozilla",
+            link: "https://developer.mozilla.org/es/docs/Web/CSS/align-content"
+          }
+        ]
+      },
     {
-      id: 11,
+      id: 13,
       name: "grid-template-columns",
       tag: "CSS Grid",
       description: "Define el tamaño de las columnas (eje horizontal). Los valores representan el tamaño de la ruta y el espacio entre ellos representa la línea de la cuadrícula. Se puede unificar con grid-templete-row en una: grid-column",
@@ -447,7 +539,7 @@ const properties = {
       ]
     },
     {
-      id: 12,
+      id: 14,
       name: "grid-template-rows",
       tag: "CSS Grid",
       description: "Define el tamaño de las filas (eje vertical). Los valores representan el tamaño de la ruta y el espacio entre ellos representa la línea de la cuadrícula. Se puede unificar con grid-templete-columns en una: grid-column",
@@ -511,7 +603,7 @@ const properties = {
       ]
     },
     {
-      id: 13,
+      id: 15,
       name: "grid-column-start | end",
       tag: "CSS Grid",
       description: "Determina la ubicación de un elemento de cuadrícula dentro de la cuadrícula al referirse a líneas de cuadrícula específicas. grid-column-start / grid-row-start es la línea donde comienza el elemento, y grid-column-end / grid-row-end la linea donde termina.",
@@ -555,7 +647,7 @@ const properties = {
       ]
     },
     {
-      id: 14,
+      id: 16,
       name: "grid-row-start | end",
       tag: "CSS Grid",
       description: "Determina la ubicación de un elemento de cuadrícula dentro de la cuadrícula al referirse a líneas de cuadrícula específicas. grid-row-start / grid-column-start es la línea donde comienza el elemento, y grid-row-end / grid-column-end la linea donde termina.",
@@ -599,7 +691,7 @@ const properties = {
       ]
     },
     {
-      id: 14,
+      id: 17,
       name: "grid-gap",
       tag: "CSS Grid",
       description: "Es una propiedad  abreviada shorthand para grid-row-gap y grid-column-gap que define los canales entre las filas y las columnas de la cuadrícula. Al proporcionar un valor se establece el margen tanto para las filas como para las columnas",
@@ -627,7 +719,7 @@ const properties = {
       ]
     },
     {
-      id: 15,
+      id: 18,
       name: "grid-template-area",
       tag: "CSS Grid",
       description: "Especifica nombres para cada una de las grid areas, y las usamos para posicionar nuestros elementos, en lugar de números de línea. Repetir el nombre de un grid-area hace que el contenido abarque esas celdas.",
@@ -659,7 +751,7 @@ const properties = {
       ]
     },
     {
-      id: 16,
+      id: 19,
       name: "grid-area",
       tag: "CSS Grid",
       description: "Da un nombre a un elemento para que pueda ser referenciado por una plantilla creada con la propiedad grid-template-areas.",
@@ -691,8 +783,8 @@ const properties = {
       ]
     },
     {
-      id: 17,
-      name: "justify-content (CSS-grid)",
+      id: 20,
+      name: "justify-content",
       tag: "CSS Grid",
       description: "Guarda el mismo principio que para flexbox. Alinea los elementos en el eje principal (el horizontal) de su contenedor.",
       sintaxis: "start | end | center | stretch | space-between | space-around | space-evenly",
@@ -739,7 +831,7 @@ const properties = {
       ]
     },
     {
-      id: 18,
+      id: 21,
       name: "justify-items",
       tag: "CSS Grid",
       description: "Alinea el contenido dentro de un elemento de la cuadrícula a lo largo del eje de la fila.",
@@ -783,99 +875,7 @@ const properties = {
       ]
     },
     {
-      id: 19,
-      name: "align-items",
-      tag: "CSS Grid",
-      description: "Alinea el contenido dentro de un elemento de la cuadrícula a lo largo del eje de la columna. (A diferencia de justify-items)",
-      sintaxis: "start | end | center | stretch",
-      valueAmount: 4,
-      values: [
-        {
-          title: "start",
-          content: "Se alinean al inicio del grid-area",
-        },
-        {
-          title: "end",
-          content: "Se alinean al final del grid-area",
-        },
-        {
-          title: "center",
-          content: "Se alinean al centro del grid-area",
-        },
-        {
-          title: "stretch",
-          content: "Llena todo el ancho del grid-area",
-        }
-      ],
-      example: "img/svg/align-items-grid.svg",
-      exampleMobile: "img/svg/align-items-grid-mobile.svg",
-      demo: "demo",
-      BrowserSupport: "https://caniuse.com/#search=css%20grid",
-      links: [
-        {
-          name: "CSS-tricks / CSS grid ",
-          link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
-        },
-        {
-          name: "Ejemplos de align-items por Rachel Andrew ",
-          link: "https://gridbyexample.com/examples/example24/"
-        }
-      ]
-    },
-    {
-      id: 20,
-      name: "align-content",
-      tag: "CSS Grid",
-      description: "Similar a justify-content, pero align-content alinea la grilla a lo largo del eje de la columna",
-      sintaxis: "start | end | center | stretch | space-between | space-around | space-evenly",
-      valueAmount: 7,
-      values: [
-        {
-          title: "start",
-          content: "Se alinean al inicio del contenedor",
-        },
-        {
-          title: "end",
-          content: "Se alinean al final del contenedor",
-        },
-        {
-          title: "center",
-          content: "Se alinean al centro del contenedor",
-        },
-        {
-          title: "stretch",
-          content: "Cambia el tamaño de los elementos de grid para permitir que ocupe todo el ancho del contenedor del grid",
-        },
-        {
-          title: "space-between",
-          content: "Se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
-        },
-        {
-          title: "space-around",
-          content: "Se distribuyen con espacios iguales entre ellas, con espacios de la mitad del tamaño en los extremos",
-        },
-        {
-          title: "space-evenly",
-          content: "Se distribuyen con espacios iguales entre ellas, incluidos los extremos",
-        }
-      ],
-      example: "img/svg/justify-items.svg",
-      exampleMobile: "img/svg/justify-items-mobile.svg",
-      demo: "demo",
-      BrowserSupport: "https://caniuse.com/#search=css%20grid",
-      links: [
-        {
-          name: "CSS-tricks / CSS grid ",
-          link: "https://css-tricks.com/snippets/css/complete-guide-grid/"
-        },
-        {
-          name: "Mozilla",
-          link: "https://developer.mozilla.org/es/docs/Web/CSS/align-content"
-        }
-      ]
-    },
-    {
-      id: 21,
+      id: 22,
       name: "grid-auto",
       tag: "CSS Grid",
       description: "grid-auto-column / grid-auto-rows, Define si un elemento de la cuadrícula se coloca en una columna que no está dimensionada explícitamente por grid-template-column o grid-template-row, se crean grid-tracks implícitas para contenerla.",
@@ -911,7 +911,7 @@ const properties = {
       ]
     },
     {
-      id: 22,
+      id: 23,
       name: "grid-auto-flow",
       tag: "CSS Grid",
       description: "Controla cómo funciona el algoritmo de auto colocación. Si tiene elementos de grid que no se colocan explícitamente en el grid, el algoritmo de colocación automática se activa para colocar automáticamente los elementos.",

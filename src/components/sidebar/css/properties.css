@@ -3,7 +3,7 @@
 }
 
 .properties-list h3 {
-  background: var(--third-color);
+  background-color: var(--main-color-dark);
   padding: 10px;
 }
 

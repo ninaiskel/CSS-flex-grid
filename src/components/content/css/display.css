@@ -91,4 +91,8 @@
   .display-description {
     width: 100%;
   }
+
+  .display h1 {
+      font-size: 3rem;
+  }
 }

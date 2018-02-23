@@ -8,7 +8,9 @@ const Header = ({ openSidebar }) => (
       <button onClick={ openSidebar } className="icon button-searcher">
         <Icon name="icon-search" />
       </button>
-      <h1>CSS-Léx</h1>
+      <div class="logo">
+        <a href=""><h1>FlexGrid</h1></a>
+      </div>
     </div>
     <div className="share-links">
       <p>Comparte:</p>

@@ -8,15 +8,21 @@ class Footer extends Component {
       <section className="footer">
         <div className="follow">
           <p>Sigueme:</p>
-          <button className="icon footer-links-icon">
+          <a className="icon footer-links-icon"
+                  href="https://twitter.com/NinAiskel"
+                  target="_blank" rel="noopener noreferrer">
             <Icon name="icon-twitter"/>
-          </button>
-          <button className="icon footer-links-icon">
+          </a>
+          <a className="icon footer-links-icon"
+                  href="https://twitter.com/NinAiskel"
+                  target="_blank" rel="noopener noreferrer">
             <Icon name="icon-github" />
-          </button>
+          </a>
         </div>
         <p>Diseñado y construido con <span className="heart"></span> por
-          <a href="https://ninaiskel.github.io/Web-Jess/"target="_blank" rel="noopener noreferrer" >Jess</a>
+          <a href="https://ninaiskel.github.io/Web-Jess/"
+             target="_blank"
+             rel="noopener noreferrer" >Jess</a>
         </p>
         <small>Copyright 2018</small>
       </section>

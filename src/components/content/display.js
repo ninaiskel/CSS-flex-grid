@@ -46,6 +46,7 @@ const Display = () => (
         <div>
           <h3>Enlaces de interes</h3>
           <p>Para mayor comprensión puedes revisar cada una de las propiedas presentadas aquí o puedes revisar alguno de estos enlaces.</p>
+          <p> Hay mucha información en internet que servite de ayuda.</p>
           <ul className="resources">
             <li className="resource-item">
               <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener noreferrer">

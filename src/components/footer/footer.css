@@ -15,16 +15,12 @@
 
 .footer a {
   color: white;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 
 .follow {
   display: flex;
   align-items: center;
-}
-
-.footer-links-icon {
-  margin-left: 5px;
 }
 
 @media (max-width: 769px) {

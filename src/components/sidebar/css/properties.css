@@ -1,0 +1,27 @@
+.properties-list {
+  padding: 6px;
+}
+
+.properties-list h3 {
+  background-color: var(--main-color-dark);
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  padding: 6px 8px;
+}
+
+.property-item {
+  padding: 10px 0;
+  color: var(--white);
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.property-item:hover {
+  background: var(--second-color);
+}
+
+.property-css-grid {
+  margin-top: 20px;
+}

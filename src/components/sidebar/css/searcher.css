@@ -1,0 +1,38 @@
+.searcher {
+  align-items: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  padding: 6px;
+  position: relative;
+}
+
+input {
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+
+.searcher-input {
+  background: var(--input);
+  box-sizing: border-box;
+  color: var(--white);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  height: 78px;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.icon-searcher {
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+}
+
+@media (max-width: 769px) {
+  .searcher-input {
+    height: 50px;
+  }
+}

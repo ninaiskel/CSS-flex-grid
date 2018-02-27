@@ -13,6 +13,7 @@ class App extends Component {
     this.updateSearch = this.updateSearch.bind(this)
     this.propertySelect = this.propertySelect.bind(this)
     this.openSidebar = this.openSidebar.bind(this)
+    
     this.state = ({
       properties : properties,
       search : '',

@@ -9,8 +9,11 @@
   .sidebar {
     transform: translatex(-106%);
     width: 100%;
-    position: fixed;
+    position: absolute;
+    overflow-y: scroll;
+    padding-bottom: 60px;
   }
+
   .sidebar-active .sidebar {
     transform: translatex(0);
     z-index: 999;

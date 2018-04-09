@@ -35,7 +35,7 @@ const properties = {
         ],
         example: "img/svg/align-content.svg",
         exampleMobile: "img/svg/align-content-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/KQvOOL",
         BrowserSupport: "https://caniuse.com/#search=align-content",
         links: [
           {
@@ -79,7 +79,7 @@ const properties = {
         ],
         example: "img/svg/align-items.svg",
         exampleMobile: "img/svg/align-items-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/qxXgNj",
         BrowserSupport: "https://caniuse.com/#search=align-items",
         links: [
           {
@@ -127,7 +127,7 @@ const properties = {
         ],
         example: "img/svg/align-self.svg",
         exampleMobile: "img/svg/align-self-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/Yeryro",
         BrowserSupport: "https://caniuse.com/#search=align-self",
         links: [
           {
@@ -167,7 +167,7 @@ const properties = {
         ],
         example: "img/svg/flex-direction.svg",
         exampleMobile: "img/svg/flex-direction-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/aqLjPR",
         BrowserSupport: "https://caniuse.com/#search=flex-direction",
         links: [
           {
@@ -203,7 +203,7 @@ const properties = {
         ],
         example: "img/svg/flex-wrap.svg",
         exampleMobile: "img/svg/flex-wrap-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/bLomaZ",
         BrowserSupport: "https://caniuse.com/#search=flex-wrap",
         links: [
           {
@@ -231,7 +231,7 @@ const properties = {
         ],
         example: "img/svg/flex-grow.svg",
         exampleMobile: "img/svg/flex-grow-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/ZrXPPr",
         BrowserSupport: "https://caniuse.com/#search=flex-grow",
         links: [
           {
@@ -263,7 +263,7 @@ const properties = {
         ],
         example: "img/svg/flex-shrink.svg",
         exampleMobile: "img/svg/flex-shrink-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/ZrXPPr",
         BrowserSupport: "https://caniuse.com/#search=flex-shrink",
         links: [
           {
@@ -291,7 +291,7 @@ const properties = {
         ],
         example: "img/svg/flex-flow.svg",
         exampleMobile: "img/svg/flex-flow-mobile.svg",
-        demo: "se puede utilizar demo de flex-direction y flex-wrap",
+        demo: "https://codepen.io/Ninaiskel/pen/bLomaZ",
         BrowserSupport: "https://caniuse.com/#search=flex-flow",
         links: [
           {
@@ -327,7 +327,7 @@ const properties = {
         ],
         example: "img/svg/flex-basis.svg",
         exampleMobile: "img/svg/flex-basis-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/eVGqBP",
         BrowserSupport: "https://caniuse.com/#search=flex-basis",
         links: [
           {
@@ -371,7 +371,7 @@ const properties = {
         ],
         example: "img/svg/justify-content.svg",
         exampleMobile: "img/svg/justify-content-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/KQvOOL",
         BrowserSupport: "https://caniuse.com/#search=justify-content",
         links: [
           {
@@ -413,7 +413,7 @@ const properties = {
         ],
         example: "img/svg/align-items-grid.svg",
         exampleMobile: "img/svg/align-items-grid-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/PQeKPx",
         BrowserSupport: "https://caniuse.com/#search=css%20grid",
         links: [
           {
@@ -465,7 +465,7 @@ const properties = {
         ],
         example: "img/svg/justify-items.svg",
         exampleMobile: "img/svg/justify-items-mobile.svg",
-        demo: "demo",
+        demo: "https://codepen.io/Ninaiskel/pen/aqGJKE",
         BrowserSupport: "https://caniuse.com/#search=css%20grid",
         links: [
           {
@@ -517,7 +517,7 @@ const properties = {
       ],
       example: "img/svg/grid-template-columns.svg",
       exampleMobile: "img/svg/grid-template-columns-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/eVyOXp",
       BrowserSupport: "https://caniuse.com/#search=grid-template",
       links: [
         {
@@ -581,7 +581,7 @@ const properties = {
       ],
       example: "img/svg/grid-template-rows.svg",
       exampleMobile: "img/svg/grid-template-rows-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/eVyOXp",
       BrowserSupport: "https://caniuse.com/#search=grid-template",
       links: [
         {
@@ -629,7 +629,7 @@ const properties = {
       ],
       example: "img/svg/grid-column-s-e.svg",
       exampleMobile: "img/svg/grid-column-s-e-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/eVyOXp",
       BrowserSupport: "https://caniuse.com/#search=grid-column",
       links: [
         {
@@ -673,7 +673,7 @@ const properties = {
       ],
       example: "img/svg/grid-row-s-e.svg",
       exampleMobile: "img/svg/grid-row-s-e-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/eVyOXp",
       BrowserSupport: "https://caniuse.com/#search=grid-row",
       links: [
         {
@@ -705,7 +705,7 @@ const properties = {
       ],
       example: "img/svg/grid-gap.svg",
       exampleMobile: "img/svg/grid-gap-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/EQoXqE",
       BrowserSupport: "https://caniuse.com/#search=css%20grid",
       links: [
         {
@@ -737,7 +737,7 @@ const properties = {
       ],
       example: "img/svg/grid-template-areas.svg",
       exampleMobile: "img/svg/grid-template-areas-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/KQQxwz",
       BrowserSupport: "https://caniuse.com/#search=css%20grid",
       links: [
         {
@@ -765,7 +765,7 @@ const properties = {
       ],
       example: "img/svg/grid-area.svg",
       exampleMobile: "img/svg/grid-area-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/KQQxwz",
       BrowserSupport: "https://caniuse.com/#search=css%20grid",
       links: [
         {
@@ -821,7 +821,7 @@ const properties = {
       ],
       example: "img/svg/justify-content-grid.svg",
       exampleMobile: "img/svg/justify-content-grid-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/aqGJKE",
       BrowserSupport: "https://caniuse.com/#search=css%20grid",
       links: [
         {
@@ -857,7 +857,7 @@ const properties = {
       ],
       example: "img/svg/justify-items.svg",
       exampleMobile: "img/svg/justify-items-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/PQeKPx",
       BrowserSupport: "https://caniuse.com/#search=css%20grid",
       links: [
         {
@@ -889,7 +889,7 @@ const properties = {
       ],
       example: "img/svg/grid-auto.svg",
       exampleMobile: "img/svg/grid-auto-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/eVrLVB",
       BrowserSupport: "https://caniuse.com/#search=css%20grid",
       links: [
         {
@@ -933,7 +933,7 @@ const properties = {
       ],
       example: "img/svg/grid-auto-flow.svg",
       exampleMobile: "img/svg/grid-auto-flow-mobile.svg",
-      demo: "demo",
+      demo: "https://codepen.io/Ninaiskel/pen/eVrLVB",
       BrowserSupport: "https://caniuse.com/#search=css%20grid",
       links: [
         {

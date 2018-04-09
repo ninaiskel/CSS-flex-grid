@@ -33,6 +33,7 @@
 
 .resource-item a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 .resource-item h4 {

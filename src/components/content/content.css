@@ -37,27 +37,14 @@
   color: var(--white);
   text-decoration: none;
   cursor: pointer;
+  transition: all ease .6s;
 }
+
+.button:hover {
+  background: var(--second-color-dark);
+}
+
+/* //demo */
 .demo-pen {
   width: 100%;
 }
-/* .button::before {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-
-.button::after {
-  background: var(--second-color);
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-
-.button:hover:after {
-  height: 0;
-  left: 50%;
-  top: 50%;
-} */

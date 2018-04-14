@@ -14,7 +14,7 @@ class Footer extends Component {
             <Icon name="icon-twitter"/>
           </a>
           <a className="icon footer-links-icon"
-                  href="https://twitter.com/NinAiskel"
+                  href="https://github.com/ninaiskel"
                   target="_blank" rel="noopener noreferrer">
             <Icon name="icon-github" />
           </a>

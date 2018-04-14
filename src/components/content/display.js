@@ -7,7 +7,7 @@ const Display = () => (
       <h1>Flexbox</h1>
       <article class="display-content">
         <div class="display-description">
-          <p> Flexbox Layaout, es el nuevo modelo de layout implementado en la especificación CSS3 para mejorar la alineación, dirección y orden de los elemento en el documento web, su diseño es independiente de la dirección en comparación con los diseños normales</p>
+          <p> Flexbox Layaout, es el nuevo modelo de layout implementado en la especificación CSS3 para mejorar la alineación, dirección y orden de los elementos en el documento web, su diseño es independiente de la dirección en comparación con los diseños normales</p>
           <p>Es definido por <span>Display: Flex</span> y debe estar constituido por elementos padres e hijos, el padre será el contenedor Flexible “flex container” y los hijos inmediato serán los elementos Flexibles “flex item”.</p>
           <p>Las propiedades que nos presenta Flexbox las podemos dividir en dos grupos, para el elemento contenedor flex (flex-container) y  para los elementos hijos flexibles.(flex-items)</p>
         </div>
@@ -39,8 +39,8 @@ const Display = () => (
       <h1>CSS Grid</h1>
       <article class="display-content">
         <div class="display-description">
-          <p>Cambiar por completo la forma en que diseñamos las interfaces de usuario basadas en un grid. Es un sistema bidimensional, lo que significa que puede manejar tanto columnas como filas, a diferencia de flexbox, que es en gran medida un sistema unidimensional. Con CSS grid se puden lograr lograr muchos diseños diferentes.</p>
-          <p>Es definido por <span>Display: grid</span>en el contenedor padre, también se establen los tamaños de grid-template-columns y grid-template-rows y a continuacióny se colocan sus elementos secundarios en el grid con grid-column y grid-row.</p>
+          <p>Nos Cambia por completo la forma en que diseñamos las interfaces de usuario basadas en un grid. Es un sistema bidimensional, lo que significa que puede manejar tanto columnas como filas, a diferencia de flexbox, que es en gran medida un sistema unidimensional. Con CSS grid podemos jugar con nuestra imaginación y lograr diseños diferentes.</p>
+          <p>Es definido por <span>Display: grid</span>en el contenedor padre, también se establen los tamaños de grid-template-columns y grid-template-rows y a continuación se colocan sus elementos secundarios en grid con grid-column y grid-row.</p>
           <p>Al igual que en flexbox, el orden de origen de los elementos del grid no importa y Las propiedades que nos presenta las podemos dividir en dos grupos, para el elemento contenedor (grid-container) y  para los elementos hijos (grid-items)</p>
         </div>
         <div>

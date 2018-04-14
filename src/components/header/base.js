@@ -14,15 +14,17 @@ const Header = ({ openSidebar }) => (
     </div>
     <div className="share-links">
       <p>Comparte:</p>
-      <button className="icon share-links-icon">
-        <Icon name="icon-twitter"/>
-      </button>
-      <button className="icon share-links-icon">
+      <a href="https://twitter.com/home?status=https%3A//ninaiskel.github.io/CSS-flex-grid/"
+         className="icon share-links-icon"
+         target="_blank"
+         data-url="https://ninaiskel.github.io/CSS-flex-grid/">
+         <Icon name="icon-twitter"/>
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=https://ninaiskel.github.io/CSS-flex-grid/"
+         className="icon share-links-icon"
+         target="_blank">
         <Icon name="icon-facebook"/>
-      </button>
-      <button className="icon share-links-icon">
-        <Icon name="icon-github" />
-      </button>
+      </a>
     </div>
   </section>
 );

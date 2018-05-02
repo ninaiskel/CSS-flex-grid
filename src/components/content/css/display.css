@@ -12,6 +12,17 @@
   width: 70%;
 }
 
+.display-description p {
+  line-height: 1.68rem;
+}
+
+.info-property {
+  margin: 40px 0;
+  font-weight: bold;
+}
+.info-property .button {
+  display: none;
+}
 .resources {
   align-items: center;
   display: grid;
@@ -96,4 +107,13 @@
   .display h1 {
       font-size: 3rem;
   }
+  .info-property .button {
+      display: block;
+  }
+}
+
+.code {
+  background: var(--background);
+  padding: 3px 4px;
+  font-size: 1.1rem;
 }

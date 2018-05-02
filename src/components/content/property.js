@@ -5,7 +5,7 @@ const Property = ({ property }) => (
   <div className="property">
     <Title property= { property }/>
     <p className="property-description">
-      { property.name } { property.description }
+      { property.description }
     </p>
   </div>
 );

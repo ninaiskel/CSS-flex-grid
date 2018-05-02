@@ -9,7 +9,7 @@ import BrowserSupport from './browser-support.js';
 import InterestsLinks from './interests-links.js';
 import './content.css';
 
-const Content = ({ property }) => (
+const Content = ({ property, openSidebar }) => (
   <section className="content">
     { property ?
       <div>
@@ -23,7 +23,7 @@ const Content = ({ property }) => (
       </div>
     :
       <div>
-        <Display />
+        <Display openSidebar={ openSidebar }/>
       </div>
     }
   </section>

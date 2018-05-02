@@ -3,6 +3,7 @@
   grid-area: sidebar;
   color: var(--white);
   height: 100%;
+  transition: all .6s ease;
 }
 
 @media (max-width: 769px) {

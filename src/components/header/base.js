@@ -16,13 +16,13 @@ const Header = ({ openSidebar }) => (
       <p>Comparte:</p>
       <a href="https://twitter.com/home?status=https%3A//ninaiskel.github.io/CSS-flex-grid/"
          className="icon share-links-icon"
-         target="_blank"
+         target="_blank" rel="noopener noreferrer"
          data-url="https://ninaiskel.github.io/CSS-flex-grid/">
          <Icon name="icon-twitter"/>
       </a>
       <a href="http://www.facebook.com/sharer.php?u=https://ninaiskel.github.io/CSS-flex-grid/"
          className="icon share-links-icon"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <Icon name="icon-facebook"/>
       </a>
     </div>

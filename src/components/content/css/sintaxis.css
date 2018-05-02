@@ -4,6 +4,7 @@
 
 .sintaxis-wrap {
   display: flex;
+  align-items: center;
 }
 
 .sintaxis-wrap p, span {

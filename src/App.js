@@ -13,7 +13,7 @@ class App extends Component {
     this.updateSearch = this.updateSearch.bind(this)
     this.propertySelect = this.propertySelect.bind(this)
     this.openSidebar = this.openSidebar.bind(this)
-    
+
     this.state = ({
       properties : properties,
       search : '',
@@ -35,7 +35,8 @@ class App extends Component {
   }
 
   openSidebar(){
-    this.setState({ sidebar: true })
+    const { sidebar } = this.state
+    this.setState({ sidebar: !sidebar })
   }
 
   render() {
@@ -46,10 +47,12 @@ class App extends Component {
         <Sidebar  properties={ properties }
                   search={ search }
                   updateSearch={ this.updateSearch }
-                  propertySelect={ this.propertySelect }/>
+                  propertySelect={ this.propertySelect }
+                  openSidebar={ this.openSidebar }/>
         <Header className="header" openSidebar={ this.openSidebar }/>
         <Content  property= { property }
-                  propertySelect={ this.propertySelect }/>
+                  propertySelect={ this.propertySelect }
+                  openSidebar={ this.openSidebar }/>
         <Footer  />
       </div>
     );

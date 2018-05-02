@@ -5,6 +5,7 @@
   overflow: hidden;
   padding: 6px;
   position: relative;
+  flex-basis: 96%;
 }
 
 input {
@@ -31,8 +32,45 @@ input {
   z-index: 2;
 }
 
+.wrap-searcher {
+  display: flex;
+  align-items: center;
+}
+
+.close {
+  position: relative;
+  display: none;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-basis: 4%;
+  margin: 0 12px 0 10px
+}
+
+.close::before, .close::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  background: white;
+}
+.close::before {
+  transform: rotate(45deg);
+}
+.close::after {
+  transform: rotate(-45deg);
+}
+
+
 @media (max-width: 769px) {
   .searcher-input {
     height: 50px;
   }
+
+  .close {
+    display: inline-block;
+  }
+
 }

@@ -38,6 +38,7 @@
   text-decoration: none;
   cursor: pointer;
   transition: all ease .6s;
+  font-size: inherit
 }
 
 .button:hover {

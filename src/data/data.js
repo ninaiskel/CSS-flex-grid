@@ -4,33 +4,33 @@ const properties = {
         id: 1,
         name: "align-content",
         tag: "flexbox",
-        description: "Define como se alinea dentro de un contenedor flexible (Flexible Box Layout module), solo se aplica si flex-wrap: wrap está presente y si hay varias lineas de elementos de flexbox.",
+        description: "Define como se alinea dentro de un contenedor flexible, solo se aplica si flex-wrap: wrap está presente y si hay varias líneas de elementos de flexbox.",
         sintaxis:"flex-start | flex-end | center | space-between | space-around | stretch",
         valueAmount: 6,
         values: [
           {
             title: "flex-start",
-            content: "Se alinean al inicio del contenedor",
+            content: "Los elementos se alinean al inicio del contenedor",
           },
           {
             title: "flex-end",
-            content: "Se alinean al final del contenedor",
+            content: "Los elementos se alinean al final del contenedor",
           },
           {
             title: "center",
-            content: "Se alinean al centro del contenedor",
+            content: "Los elementos se alinean al centro del contenedor",
           },
           {
             title: "space-between",
-            content: "Se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
+            content: "Los elementos se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
           },
           {
             title: "space-around",
-            content: "Se distribuyen con espacios iguales entre ellas.",
+            content: "Los elementos se distribuyen con espacios iguales entre ellas.",
           },
           {
             title: "stretch",
-            content: "Se estiran para ocupar el espacio restante.",
+            content: "Los elementos se estiran para ocupar el espacio restante.",
           }
         ],
         example: "img/svg/align-content.svg",
@@ -58,19 +58,19 @@ const properties = {
         values: [
           {
             title: "flex-start",
-            content: "Se alinean al inicio del contenedor",
+            content: "Los elementos se alinean al inicio del contenedor.",
           },
           {
             title: "flex-end",
-            content: "Se alinean al final del contenedor",
+            content: "Los elementos se alinean al final del contenedor.",
           },
           {
             title: "center",
-            content: "Se alinean al centro del contenedor",
+            content: "Los elementos se alinean al centro del contenedor.",
           },
           {
             title: "baseline",
-            content: "Se Alinea los ítems en el contenedor según la base de los ítems",
+            content: "Los elementos se alinea en el contenedor según su base.",
           },
           {
             title: "stretch",
@@ -106,23 +106,23 @@ const properties = {
           },
           {
             title: "flex-start",
-            content: "El elemento hijo seleccionado se alinea al inicio del contenedor",
+            content: "El elemento hijo seleccionado se alinea al inicio del contenedor.",
           },
           {
             title: "flex-end",
-            content: "El elemento hijo se alinea al final del contenedor",
+            content: "El elemento hijo se alinea al final del contenedor.",
           },
           {
             title: "center",
-            content: "El elemento hijo se alinea al centro del contenedor",
+            content: "El elemento hijo se alinea al centro del contenedor.",
           },
           {
             title: "baseline",
-            content: "Se Alinea los ítems en el contenedor según la base de los ítems",
+            content: "Los elementos se alinean en el contenedor según su base.",
           },
           {
             title: "stretch",
-            content: "Hereda el valor de align-items del padre",
+            content: "Hereda el valor de align-items del padre.",
           }
         ],
         example: "img/svg/align-self.svg",
@@ -350,23 +350,23 @@ const properties = {
         values: [
           {
             title: "flex-start",
-            content: "Se alinean al inicio del contenedor",
+            content: "Los elementos se alinean al inicio del contenedor.",
           },
           {
             title: "flex-end",
-            content: "Se alinean al final del contenedor",
+            content: "Los elementos se alinean al final del contenedor.",
           },
           {
             title: "center",
-            content: "Se alinean al centro del contenedor",
+            content: "Los elementos se alinean al centro del contenedor.",
           },
           {
             title: "space-between",
-            content: "Se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
+            content: "Los elementos se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
           },
           {
             title: "space-around",
-            content: "Se distribuyen con espacios iguales entre ellas.",
+            content: "Los elementos se distribuyen con espacios iguales entre ellas.",
           }
         ],
         example: "img/svg/justify-content.svg",
@@ -396,19 +396,19 @@ const properties = {
         values: [
           {
             title: "start",
-            content: "Se alinean al inicio del grid-area",
+            content: "Los elementos se alinean al inicio del grid-area.",
           },
           {
             title: "end",
-            content: "Se alinean al final del grid-area",
+            content: "Los elementos se alinean al final del grid-area.",
           },
           {
             title: "center",
-            content: "Se alinean al centro del grid-area",
+            content: "Los elementos se alinean al centro del grid-area.",
           },
           {
             title: "stretch",
-            content: "Llena todo el ancho del grid-area",
+            content: "Llena todo el ancho del grid-area.",
           }
         ],
         example: "img/svg/align-items-grid.svg",
@@ -436,31 +436,31 @@ const properties = {
         values: [
           {
             title: "start",
-            content: "Se alinean al inicio del contenedor",
+            content: "Los elementos se alinean al inicio del contenedor.",
           },
           {
             title: "end",
-            content: "Se alinean al final del contenedor",
+            content: "Los elementos se alinean al final del contenedor.",
           },
           {
             title: "center",
-            content: "Se alinean al centro del contenedor",
+            content: "Los elementos se alinean al centro del contenedor.",
           },
           {
             title: "stretch",
-            content: "Cambia el tamaño de los elementos de grid para permitir que ocupe todo el ancho del contenedor del grid",
+            content: "Cambia el tamaño de los elementos de grid para permitir que ocupe todo el ancho del contenedor del grid.",
           },
           {
             title: "space-between",
-            content: "Se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
+            content: "Los elementos se alinean de manera uniforme, desde el inicio del contenedor y la última esta al final del contenedor.",
           },
           {
             title: "space-around",
-            content: "Se distribuyen con espacios iguales entre ellas, con espacios de la mitad del tamaño en los extremos",
+            content: "Los elementos se distribuyen con espacios iguales entre ellas, con espacios de la mitad del tamaño en los extremos",
           },
           {
             title: "space-evenly",
-            content: "Se distribuyen con espacios iguales entre ellas, incluidos los extremos",
+            content: "Los elementos se distribuyen con espacios iguales entre ellas, incluidos los extremos",
           }
         ],
         example: "img/svg/justify-items.svg",
